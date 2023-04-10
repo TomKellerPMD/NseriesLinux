@@ -1,5 +1,5 @@
 # NseriesLinux
-Testing TCP/IP and RS232 interfaces using Debian on RaspberryPi 400.
+Tested TCP/IP and RS232 interfaces using Debian on RaspberryPi 400.
 
 to compile:
 sudo make nIONCME
