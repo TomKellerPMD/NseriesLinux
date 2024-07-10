@@ -26,7 +26,7 @@
 #define USER_PACKET_LENGTH          MAX_PACKET_DATA_LENGTH
 
 #define DEFAULT_ETHERNET_PORT       40100
-#define RP_TIMEOUT                  800 //ms
+#define RP_TIMEOUT                  1000 //ms    // TLK 7/10/24, original value of 800ms could caused "Socket Error: Resource Not Avaible" during call to Receive TCP.
 
 #define SUB_ACTION_POS              2       // position of sub action byte in packet header
 #define SUB_COMMAND_POS             3       // position of sub command byte in packet header
